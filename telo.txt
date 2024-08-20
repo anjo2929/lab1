@@ -1,0 +1,26 @@
+using System;
+
+public class anjo
+{
+    public static void Main(string[] args)
+    {
+        // user to enter their name
+        Console.Write("Enter your name: ");
+        string name = Console.ReadLine();
+
+        //user to enter the total number of enrolled courses
+        Console.Write("Enter the total number of courses you are enrolled in: ");
+        int course = int.Parse(Console.ReadLine());
+
+        // user to enter the price of their favorite book
+        Console.Write("Enter the price of your favorite book: ");
+        double price = double.Parse(Console.ReadLine());
+
+        // entered information
+        Console.WriteLine("Name: " + name);
+        Console.WriteLine("Total enrolled courses: " + course);
+        Console.WriteLine("Price of my favorite book: " + price);
+        
+        
+    }
+}
